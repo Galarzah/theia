@@ -4,13 +4,15 @@
 
 - [Previous Changelogs](https://github.com/eclipse-theia/theia/tree/master/doc/changelogs/)
 
-## v1.30.0
+## v1.30.0 - Unreleased
 
 - [core] Added support for moving webview-based views into a secondary window for browser applications. Added new extension `secondary-window` that contributes the UI integration to use this. [#11048](https://github.com/eclipse-theia/theia/pull/11048) - Contributed on behalf of ST Microelectronics and Ericsson and by ARM and EclipseSource
 
 <a name="breaking_changes_1.30.0">[Breaking Changes:](#breaking_changes_1.30.0)</a>
 
 - [core] Added constructor injection to `ApplicationShell`: `SecondaryWindowHandler`. [#11048](https://github.com/eclipse-theia/theia/pull/11048) - Contributed on behalf of ST Microelectronics and Ericsson and by ARM and EclipseSource
+- [workspace] removed `workspace.supportMultiRootWorkspace` preference [#11538](https://github.com/eclipse-theia/theia/pull/11538)
+- [workspace] removed method `isMultiRootWorkspaceEnabled` from `WorkspaceService` [#11538](https://github.com/eclipse-theia/theia/pull/11538)
 
 ## v1.29.0 - 8/25/2022
 
